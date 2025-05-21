@@ -114,7 +114,7 @@ Se ha adoptado un enfoque de pruebas basado en riesgos para identificar, analiza
    ```bash
    # (Si estuviera en un repo git)
    # git clone https://github.com/kiz4ru/midapp_en_angular
-   # cd ethereum-angular-dapp
+   # cd midapp_en_angular
    # O simplemente navega a la carpeta del proyecto si ya lo tienes descargado
    cd <carpeta-del-proyecto>
    ```
