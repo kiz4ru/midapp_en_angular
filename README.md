@@ -113,7 +113,7 @@ Se ha adoptado un enfoque de pruebas basado en riesgos para identificar, analiza
 1.  **Clonar el Repositorio:**
    ```bash
    # (Si estuviera en un repo git)
-   # git clone https://github.com/tuusuario/ethereum-angular-dapp.git
+   # git clone https://github.com/kiz4ru/midapp_en_angular
    # cd ethereum-angular-dapp
    # O simplemente navega a la carpeta del proyecto si ya lo tienes descargado
    cd <carpeta-del-proyecto>
@@ -228,22 +228,5 @@ Se ha adoptado un enfoque de pruebas basado en riesgos para identificar, analiza
 -   **Manejo de Errores en `web3.service.ts`:** Se implementó un manejo básico de errores para las interacciones con el contrato, con mensajes traducidos al español.
 
 *(Esta sección se actualizará con justificaciones relacionadas con el proceso de pruebas y las modificaciones realizadas durante el mismo).*
-
----
-
-## 10. Próximos Pasos y Enfoque del Proyecto
-
-El enfoque principal se centra ahora en:
-1.  **Identificación y Análisis Detallado de Riesgos:** Para `ValueStorage.sol` y la aplicación Angular.
-2.  **Creación de una Matriz de Riesgos Exhaustiva.**
-3.  **Desarrollo de una Estrategia de Pruebas Basada en Riesgos:** Con un fuerte énfasis en la seguridad del contrato inteligente y la funcionalidad crítica del frontend.
-4.  **Elaboración de un Plan de Pruebas Detallado:** Incluyendo casos de prueba específicos para riesgos identificados.
-5.  **Ejecución de Pruebas:**
-   -   Ampliación de las pruebas unitarias del contrato.
-   -   Implementación de pruebas unitarias en Angular (Karma/Jasmine).
-   -   Implementación de pruebas E2E en Angular (Cypress/Protractor).
-   -   Análisis de seguridad con Slither para `ValueStorage.sol`.
-6.  **Documentación Meticulosa:** De todo el proceso, resultados, modificaciones y justificaciones.
-7.  **Evaluación Crítica:** De la efectividad del modelo de pruebas implementado.
 
 ---
